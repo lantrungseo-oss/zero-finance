@@ -116,6 +116,11 @@ Follow these steps to run the FoodTechApp project locally:
 
    ```shell
    yarn install
+   cd ios && NO_FLIPPER=1 pod install
    ```
 
 8. Make sure you have a simulator or a device set up for running the app. You can use Android Studio or Xcode to set up an emulator or connect a physical device.
+
+9. To-do:
+
+- Add Flipper SDK for iOS
